@@ -61,7 +61,7 @@ public class Intro extends ApplicationAdapter {
 
   private void testerDirection() {
     for (int a = 0; a <= 1; a++) {
-      if (montent[a]) {
+      if (montent[a]) { //test
         coordonneesY[a] = coordonneesY[a] + 1; // incrémentation
       } else {
         coordonneesY[a] = coordonneesY[a] - 1; //décrémentation
